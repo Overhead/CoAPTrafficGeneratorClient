@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Trafikgenerator CoAP</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_send_data">SendDataActivity</string>
+    <string name="title_activity_send_input">Sending to Server</string>
+    <string name="title_activity_send">SendActivity</string>
+    <string name="title_activity_recieve_input">Receiving from Server</string>
+    <string name="title_activity_recieve">RecieveActivity</string>
+    <string name="title_activity_analyse_input">AnalyseInputActivity</string>
+    <string name="title_activity_analyse">AnalyseActivity</string>
+    <string name="Send">Send to Server</string>
+    <string name="Receive">Receive from Server</string>
+    <string name="Exit">Exit</string>
+    <string name="Continue">Continue</string>
+    <string name="Back">Back</string>
+    <string name="IPField">IP-Address</string>
+    <string name="PortField">Port</string>
+    <string name="TimeField">Duration</string>
+    <string name="DummyField">Send Dummy Data?</string>
+    <string name="Filename">Filename</string>
+    <string name="LoadFile">LoadFile</string>
+    <string name="SaveFile">SaveFile</string>
+    <string name="title_activity_file_system">FileSystem</string>
+    <string name="title_activity_some">SomeActivity</string>
+    <string name="title_activity_co_apvariables">CoAPVariables</string>
+    <string name="title_activity_loading">LoadingActivity</string>
+    <string name="title_activity_send_data_sensor">SendDataSensor</string>
+    <string name="title_activity_send_data_sensor_input">Sending to Sensor</string>
+    <string name="title_activity_recieve_data_sensor">RecieveDataSensor</string>
+    <string name="title_activity_receive_data_sensor_input">Receiving from Sensor</string>
+    <string name="SendSensor">Send to Sensor</string>
+    <string name="ReceiveSensor">Receive from Sensor</string>
+    <string name="title_activity_abstract">AbstractActivity</string>
+    <string name="Blank">Leave blank for default values!</string>
+    <string name="Random">Random</string>
+    <string name="Retransmit">Retransmit</string>
+    <string name="NStart">NStart</string>
+    <string name="Probingrate">Probingrate</string>
+    <string name="Payloadsize">Payloadsize</string>
+    <string name="Timeout">Timeout</string>
+    <string name="NoData">No Data</string>
+    <string name="CoAP">CoAP</string>
+    <string name="OK">OK</string>
+    <string name="Sleep">Sleeptime</string>
+    <string name="Next">Next</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="AddFile">Add file</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Remove">Remove</string>
+    <string name="RemoveFile">Remove File</string>
+    
+    <item name="Continue" type="id"/>
+    <item name="RemoveFile" type="id"/>
+    <item name="AddFile" type="id"/>    
+    <string name="tcpdumpinstall">Install TCPDump</string>
+    <string name="tcpdumpuninstall">Uninstall TCPDump</string>
+    <string name="SUCheck">Check SU</string>
+
+</resources>

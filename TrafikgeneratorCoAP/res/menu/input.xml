@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item 
+        android:id="@id/Continue" 
+        android:showAsAction="ifRoom" 
+        android:title="@string/Continue" 
+        android:orderInCategory="3"/>
+    <item 
+        android:id="@id/RemoveFile" 
+        android:title="@string/RemoveFile" 
+        android:showAsAction="ifRoom" 
+        android:orderInCategory="2"/>
+    <item 
+        android:id="@id/AddFile" 
+        android:icon="@drawable/ic_action_new" 
+        android:showAsAction="ifRoom|withText" 
+        android:orderInCategory="1" 
+        android:title="@string/AddFile"/>
+
+</menu>

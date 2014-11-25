@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Main" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignTop="@+id/Error"
+        android:layout_marginTop="40dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="455dp"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/IPAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/IPField" />
+
+            <EditText
+                android:id="@+id/Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/TimeField"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/Port"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/PortField"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/timeout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/Timeout"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/random"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/Random"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/retransmitt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/Retransmit"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/nStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/NStart"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/payloadSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/Payloadsize"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/sleep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/Sleep"
+                android:inputType="number" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/Error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/scrollView1"
+        android:layout_alignParentTop="true"
+        android:text="@string/Blank"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
