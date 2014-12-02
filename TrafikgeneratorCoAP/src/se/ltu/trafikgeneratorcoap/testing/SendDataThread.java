@@ -94,7 +94,7 @@ public class SendDataThread extends Thread {
 			Log.i("THREAD", ThreadNr + " Avg RTT: " + (totalRTT / nrPackets));
 			
 			
-			File myFile = new File(Environment.getExternalStorageDirectory().getPath() +"/Thread-"+ThreadNr+".txt");
+			File myFile = new File(Environment.getExternalStorageDirectory().getPath() +"/Test-"+ config.getIntegerSetting(Settings.TRAFFIC_NRTHREADS) + "Thread(s)-"+ThreadNr+".txt");
 			myFile.createNewFile();
 			FileOutputStream fOut = new FileOutputStream(myFile);
 			OutputStreamWriter myOutWriter = new OutputStreamWriter(fOut);

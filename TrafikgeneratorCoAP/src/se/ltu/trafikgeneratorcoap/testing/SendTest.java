@@ -145,6 +145,7 @@ public class SendTest {
 	private static void runMultipleThreads(TrafficConfig config) throws InterruptedException {
 		try {
 			String s = config.getStringSetting(Settings.TEST_SERVER);
+			Log.i("SENDTEST", "Nr of threads starting: " + config.getIntegerSetting(Settings.TRAFFIC_NRTHREADS));
 			for(int i=0; i < config.getIntegerSetting(Settings.TRAFFIC_NRTHREADS); i++) {
 				//Thread.sleep(200);
 				new SendDataThread(i+1, config).start();
